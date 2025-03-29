@@ -32,7 +32,7 @@ const FeedbackForm = () => {
                 name: '',
                 email: '',
                 feedback: '',
-                rating: ''
+                rating: ''     // Reset rating after submission
             });
             alert('Thank you for your valuable feedback!');
         }
